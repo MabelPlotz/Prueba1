@@ -1,0 +1,67 @@
+
+/*para html */
+* html {
+    background-color: black;
+   margin: 0; padding: 0;
+    scroll-behavior: smooth; 
+ }
+
+/*height de navbar */
+ .tamaño {
+     height: 35px;
+ }
+
+ /*font de header */
+ header { 
+    font-family: 'Lato', sans-serif;
+ }
+/*font de body */
+ body { 
+font-family: 'Lato', sans-serif;
+ }
+
+/*altura de la card imagen*/
+.card img { 
+    height:230px;
+}
+ /*margen a todo lo q tenga id, para el navbar */
+section[id]{
+    scroll-margin-top: 90px;
+}
+
+ 
+/* color letra de quienes somos */
+#quienessomos {
+    color: white;
+}
+
+/*tamaño de iconos fontawesome */
+.fa-solid { 
+    font-size: 30px;
+}
+
+/* modifica fontawesome del footer */
+.ms-4 { 
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+    
+  }
+
+  /*texto de cards justificado */
+.card-text {
+text-align: justify;
+}
+
+/* tamaño titulo destacado */
+.titulo-destacados{
+    font-size: 80px ; 
+}
+
+
+/* desaparecen las 3 columnas de texto */
+@media screen and (max-width: 500px) {
+    .hide-cards{
+    display:none;
+    } 
+}
